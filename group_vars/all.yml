@@ -1,0 +1,35 @@
+---
+# Varialble for All
+
+# --- Informasi Proxmox --- #
+node        : pve
+api_user    : root@pam
+api_password: lukmanlab
+api_host    : pve
+
+
+# --- Setting Container --- #
+OS_Template : ubuntu-18.04-standard_18.04-1_amd64.tar.gz # ubuntu-16.04-standard_16.04-1_amd64.tar.gz # centos-7-default_20171212_amd64.tar.xz
+
+ctid        : 101
+cthostname  : server.lukmanlab.com
+searchdomain: lukmanlab.com
+ctnameserver: 1.1.1.1
+ctcores     : 2
+ctmemory    : 1024
+ctswap      : 512
+ctdisk      : 10
+ctstorage   : local-lvm
+
+ctip        : 192.168.56.56/24
+ctgw        : 192.168.56.1
+ctbridge    : vmbr0
+
+# --- Setting Virtual Machine --- #
+vmid        : 102
+vmname      : Ubuntu18.04
+vmcores     : 2
+vmvcpus     : 1
+vmmemory    : 1024
+vmdisk      : 15
+vmbridge    : vmbr0
