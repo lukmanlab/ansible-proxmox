@@ -6,7 +6,7 @@
 - Install Proxmoxer
 
 ## Hosts
-- Sesuaikan IP Address Proxmox
+- Sesuaikan IP Address sesuai Proxmox anda.
 
 ## Sesuaikan Variable di group_vars
 - Sesuaikan value node, api_user, api_password, api_host sesuai proxmox anda.
