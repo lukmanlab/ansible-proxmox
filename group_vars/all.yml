@@ -9,10 +9,13 @@ api_host    : pve
 
 
 # --- Setting Container --- #
-OS_Template : ubuntu-18.04-standard_18.04-1_amd64.tar.gz # ubuntu-16.04-standard_16.04-1_amd64.tar.gz # centos-7-default_20171212_amd64.tar.xz
+OS_Template : ubuntu-18.04-standard_18.04-1_amd64.tar.gz 
+# ubuntu-16.04-standard_16.04-1_amd64.tar.gz 
+# centos-7-default_20171212_amd64.tar.xz
 
 ctid        : 101
 cthostname  : server.lukmanlab.com
+ctpassword  : lukmanlab
 searchdomain: lukmanlab.com
 ctnameserver: 1.1.1.1
 ctcores     : 2
