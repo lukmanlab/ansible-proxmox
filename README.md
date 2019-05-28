@@ -1,4 +1,6 @@
 # Ansible for Proxmox
+Ref: https://www.lukmanlab.com/tutorial-ansible-untuk-proxmox-ve/
+
 - Proxmox 5.3.2 dengan Storage Local dan Local-LVM
 
 ## Pre-requirrement
